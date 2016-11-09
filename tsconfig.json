@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "outDir": "lib",
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "skipDefaultLibCheck": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strictNullChecks": true,
+        "pretty": true,
+        "declaration": true,
+        "baseUrl": ".",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "types": [
+            "chai",
+            "mocha",
+            "node"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
